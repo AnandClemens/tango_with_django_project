@@ -133,4 +133,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+LOGIN_URL = 'rango:login'
+
 STATICFILES_DIRS = [STATIC_DIR, ]
